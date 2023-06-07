@@ -4,7 +4,7 @@
   padding-left: 5px;
   padding-right: 5px;
   margin: 5px;
-  background-color: #ececea;
+ 
 }
 
 header {
@@ -63,19 +63,35 @@ button:hover {
   padding: 10px;
 }
 
+.presentationOne {
+  color: white;
+  text-align: center;
+  border: 1px solid #174055;
+  background-color: #093f5a;
+  border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  padding: 10px;
+  max-width:500px; 
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 .introduction {
   margin: 10px;
   color: #093f5a;
+  padding:10px;
+  font-family: sans-serif;
+  font-size: 25px;
 }
 
-.box {
-  background-color: white;
-  color: #093f5a;
-  text-align: center;
-  justify-content: center;
-  border-radius: 5px;
+
+.box{
   font-size: 20px;
-  box-shadow: 0.3px 0.3px 0.8px 0.9px;
+  font-family: sans-serif;
+   
 }
 
 .boxes {
@@ -83,6 +99,7 @@ button:hover {
   grid-template-columns: 2fr 2fr 2fr;
   grid-row-gap: 30px;
   grid-column-gap: 40px;
+ 
 }
 
 .automatic {
@@ -109,7 +126,12 @@ button:hover {
 
 .obj {
   box-shadow: 10px;
-  background-color: #ececea;
+  
+  color: #093f5a;
+  
+  padding:2px;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 .textBox {
@@ -125,10 +147,12 @@ footer {
 ul {
   list-style: none;
   padding: 30px;
+  
 }
 
-.black {
-  color: #093f5a;
+a {
+  color: white;
+  text-decoration-line: none;
 }
 
 @media (max-width: 600px) {
