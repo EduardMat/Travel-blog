@@ -14,7 +14,7 @@
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/aerial-drone-view.jpg");
   background-size: cover;
   background-position: center;
@@ -24,22 +24,23 @@ header {
 }
 
 h1 {
-  padding-top: 10px;
+
   color: white;
   text-align: center;
   font-size: 50px;
   font-family: sans-serif;
+padding:20px;
+  
 }
 h2 {
   color: white;
   text-align: center;
   font-size: 50px;
   font-family: sans-serif;
+  padding-top: 40px;
+  
 }
 
-.second {
-  color: white;
-}
 
 button {
   background-color: #174055;
@@ -136,7 +137,7 @@ button:hover {
   color:var(--primary-color);
   padding:2px;
   text-align: center;
-  font-family: sans-serif;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .textBox {
@@ -169,14 +170,14 @@ a {
     font-size: 10px;
   }
 
-  .boxes {
+  .boxes{
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 10px;
     grid-column-gap: 10px;
   }
 
-  .automatic {
+  .automatic{
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 10px;
@@ -184,14 +185,14 @@ a {
     margin-top: 10px;
   }
 
-  .last {
+  .last{
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 10px;
     grid-column-gap: 10px;
   }
 
-  .boxesLast {
+  .boxesLast{
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 10px;
