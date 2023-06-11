@@ -114,14 +114,7 @@ btn:hover {
   font-size: 20px;
 }
 
-/* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
+
 
 
 
@@ -226,7 +219,7 @@ btn:hover {
 
 .textBox {
   color:var(--primary-color);
-  padding: 5px;
+  padding: 15px;
 }
 
 footer {
@@ -276,11 +269,22 @@ a {
     grid-column-gap: 10px;
   }
 
+  .img-resp{
+    max-width: 380px;
+    max-height: 300px;
+  }
+
   .boxesLast{
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 10px;
     grid-column-gap: 10px;
+  }
+
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
 }
 
